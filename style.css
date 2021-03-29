@@ -1,0 +1,109 @@
+.body {
+    font-family: 'Kiwi Maru', serif;
+    background-color: #FDF6E3;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    background-color: #002B36;
+    color: #CD3469;
+}
+
+.title h1 {
+    padding-left: 10px;
+}
+
+.title h1 a {
+    transition: color .5s;
+    color: #CD3469;
+    text-decoration: none;
+}
+
+.title h1 a:hover {
+    transition: color .5s;
+    color: #268BD2;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    background-color: #002B36;
+    color: #B68900;
+}
+
+.nav a {
+    padding-right: 15px;
+    color: #839495;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: #B68900;
+}
+
+.nav a:hover {
+    transition: color .5s;
+    color: #CD3469;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.content h3 {
+    font-weight: bold;
+    color: #268BD2;
+    padding-top: 0 0 0 0;
+}
+
+.content h3 a {
+    font-weight: bold;
+    color: #268BD2;
+}
+
+.content h3 a:hover {
+    transition: color .5s;
+    color: #CD3469;
+}
+
+.content p {
+    color: #839495;
+}
+
+.content p a {
+    color: #268BD2;
+    font-weight: bold;
+}
+
+.content p a:hover {
+    transition: color .5s;
+    color: #CD3469;
+}
+
+.download {
+    color: #268BD2;
+    font-weight: bold;
+}
+
+.download a {
+    color: #268BD2;
+    padding-right: 15px;
+}
+
+.download a:hover{
+    transition: color .5s;
+    color: #CD3469;
+}
